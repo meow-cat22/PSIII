@@ -1,0 +1,32 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 1rem ;
+    align-items: center;   
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1; 
+}
+
+.scroll {
+    width: auto;
+    height: 800px;
+    background-image: image-set(scroll);
+    display: flex;
+    flex-direction: column;
+    z-index: 1; 
+    border-radius: 5px;
+}

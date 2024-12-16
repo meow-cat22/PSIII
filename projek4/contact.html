@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="home.html">Home</a>
+            <a href="To Do.html">To Do</a>
+            <a href="">Contact me</a>
+        </div>
+
+    </div>
+
+    <div class="intro">
+        <section id="contact">
+            <h1>Hubungi saya</h1>
+            <p>Jika ada pertanyaan,komentar,atau sekedar berkenalan silahkan hubungi saya dibawah</p>
+    
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+    
+
+            <ul>
+                <li><a href="mailto:adhiyasayuditama96@Gmail.com">adhiyasayuditama96@Gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/your_username/">LinkedIn</a></li>
+                <li><a href="https://twitter.com/your_username">Twitter</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+
+    
+</body>
+</html>
+
+<style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(260192.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .nav {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .nav a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav a:hover {
+        background-color: #ddd;
+    }  
+    
+    .profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+  
+    .profile img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+    }
+     
+    footer {
+        background-color: transparent;
+        color: #000000;
+        padding: 1em;
+        text-align: center;
+        clear: both;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 100px; 
+        background-color: #ffffff00;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+    }
+    
+    form {
+        max-width: 400px;
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    ul li {
+        margin-top: 10px;
+    }
+    
+    input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+    
+    
+    input[type="submit"]:hover {
+        background-color: #444;
+    }
+</style>

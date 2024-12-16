@@ -1,0 +1,80 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 1rem ;
+    align-items: center;
+   
+}
+
+.box {
+    width: 700px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color:#3C3D37 ;
+    z-index: 2; 
+    border-radius: 5px;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1; 
+}
+
+
+.nama{
+    font-size: 15px;
+    display: flex;
+    margin-left: 170px;
+    margin-top: 24px;
+}
+
+.info{
+    font-size: 13px;
+    display: flex;
+    margin-left: 170px;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    float: left;
+    position: absolute;
+    padding: 10px;
+    z-index: 3;
+}
+
+.tabel{
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 10px;
+    padding: 1rem;
+}
+
+
+tr td{
+    padding: 5px;
+}
+
+.imgsd{
+    margin-right: 20px;
+
+}
+
+.infosd{
+
+}

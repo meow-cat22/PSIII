@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1b2838;
+    color: #c7d5e0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile-container {
+    width: 800px;
+    background-color: #2a475e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #c7d5e0;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #c7d5e0; /* Placeholder for the image */
+}
+
+.profile-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    color: #e5e5e5;
+    font-weight: bold;
+}
+
+.profile-info p {
+    color: #c7d5e0;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.level-badge {
+    text-align: center;
+    background-color: #101820;
+    padding: 10px;
+    border-radius: 5px;
+    color: #66c0f4;
+}
+
+.level-badge p {
+    font-size: 12px;
+}
+
+.level-badge h2 {
+    font-size: 28px;
+}
+
+.recent-activity {
+    margin-top: 20px;
+}
+
+.recent-activity h3 {
+    font-size: 18px;
+    border-bottom: 1px solid #c7d5e0;
+    padding-bottom: 5px;
+    color: #e5e5e5;
+}
+
+.recent-activity p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.game {
+    display: flex;
+    margin-top: 15px;
+}
+
+.game-logo {
+    width: 60px;
+    height: 60px;
+    background-color: #c7d5e0; /* Placeholder for the image */
+    border-radius: 5px;
+}
+
+.game-info {
+    margin-left: 15px;
+}
+
+.game-info h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #e5e5e5;
+}
+
+.game-info p {
+    font-size: 12px;
+    color: #c7d5e0;
+}
+
+.achievement-progress {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #c7d5e0;
+}
+
+progress {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.badges-section {
+    margin-top: 20px;
+}
+
+.badges-section h4 {
+    font-size: 16px;
+    color: #e5e5e5;
+    border-bottom: 1px solid #c7d5e0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.badges {
+    display: flex;
+    gap: 10px;
+}
+
+.badges img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #c7d5e0; /* Placeholder for the badge */
+}
